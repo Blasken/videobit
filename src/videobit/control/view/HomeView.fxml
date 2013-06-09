@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="876.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml">
+  <!-- TODO Add Nodes -->
+  <children>
+    <BorderPane prefHeight="876.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <center>
+        <SplitPane dividerPositions="0.03546910755148741" focusTraversable="true" orientation="VERTICAL">
+          <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="30.0" prefWidth="998.0">
+              <children>
+                <TextField layoutX="14.0" layoutY="3.0" prefWidth="200.0" />
+              </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="845.0" prefWidth="998.0">
+              <children>
+                <ListView prefHeight="830.0" prefWidth="998.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-396.0" />
+              </children>
+            </AnchorPane>
+          </items>
+        </SplitPane>
+      </center>
+      <left>
+        <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+          <tabs>
+            <Tab text="Untitled Tab 1">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                    <ListView prefHeight="845.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  </children>
+                </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Untitled Tab 2">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                    <ListView prefHeight="845.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  </children>
+                </AnchorPane>
+              </content>
+            </Tab>
+          </tabs>
+        </TabPane>
+      </left>
+    </BorderPane>
+  </children>
+</AnchorPane>
